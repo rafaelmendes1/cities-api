@@ -10,18 +10,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("cities")
+@RequestMapping("/cities")
 public class CityController {
 
-    private CityRepository repository;
+    private final CityRepository repository;
 
     @Autowired
-    public CityController(final CityRepository repository) {
+    public CityController(CityRepository repository) {
         this.repository = repository;
     }
 
     @GetMapping
-    public Page<City> cities(final Pageable page) {
+    public Page<City> cities(Pageable page) {
         return repository.findAll(page);
     }
 }
