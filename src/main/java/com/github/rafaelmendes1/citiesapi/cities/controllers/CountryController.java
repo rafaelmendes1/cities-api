@@ -1,7 +1,7 @@
-package com.github.rafaelmendes1.citiesapi.controllers;
+package com.github.rafaelmendes1.citiesapi.cities.controllers;
 
-import com.github.rafaelmendes1.citiesapi.entities.Country;
-import com.github.rafaelmendes1.citiesapi.repositories.CountryRepository;
+import com.github.rafaelmendes1.citiesapi.cities.entities.Country;
+import com.github.rafaelmendes1.citiesapi.cities.repositories.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.Optional;
 
 @RestController
