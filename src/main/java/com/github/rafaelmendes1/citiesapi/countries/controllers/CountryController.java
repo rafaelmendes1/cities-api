@@ -1,7 +1,7 @@
-package com.github.rafaelmendes1.citiesapi.cities.controllers;
+package com.github.rafaelmendes1.citiesapi.countries.controllers;
 
-import com.github.rafaelmendes1.citiesapi.cities.entities.Country;
-import com.github.rafaelmendes1.citiesapi.cities.repositories.CountryRepository;
+import com.github.rafaelmendes1.citiesapi.countries.entities.Country;
+import com.github.rafaelmendes1.citiesapi.countries.repositories.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

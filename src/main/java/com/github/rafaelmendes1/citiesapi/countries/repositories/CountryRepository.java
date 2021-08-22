@@ -1,6 +1,6 @@
-package com.github.rafaelmendes1.citiesapi.cities.repositories;
+package com.github.rafaelmendes1.citiesapi.countries.repositories;
 
-import com.github.rafaelmendes1.citiesapi.cities.entities.Country;
+import com.github.rafaelmendes1.citiesapi.countries.entities.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
